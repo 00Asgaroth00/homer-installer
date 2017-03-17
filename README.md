@@ -18,7 +18,7 @@ Available Methods:
 ## :page_with_curl: Bash Installer
 The baseline installer expects a Vanilla OS and will install and configure:
 * Homer 5.x
-* Kamailio 4.4
+* Kamailio 5.0
 * MySQL 5.7
 * Apache2 + PHP5
 
