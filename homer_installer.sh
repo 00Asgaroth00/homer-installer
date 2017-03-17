@@ -366,7 +366,7 @@ case $DIST in
 		   	echo "HALT! Something went wrong. Please resolve the errors above and try again."
 		   	exit 1
 		       fi
-		wget http://download.opensuse.org/repositories/home:/kamailio:/v4.4.x-rpms/CentOS_6/home:kamailio:v4.4.x-rpms.repo -O /etc/yum.repos.d/kamailio.repo
+		wget http://download.opensuse.org/repositories/home:/kamailio:/v5.0.x-rpms/CentOS_6/home:kamailio:v5.0.x-rpms.repo -O /etc/yum.repos.d/kamailio.repo
 
            elif [ "$VERS" = "7" ]; then
 		wget http://dev.mysql.com/get/mysql57-community-release-el7-7.noarch.rpm
@@ -376,7 +376,7 @@ case $DIST in
 		   	echo "HALT! Something went wrong. Please resolve the errors above and try again."
 		   	exit 1
 		       fi
-		wget http://download.opensuse.org/repositories/home:/kamailio:/v4.4.x-rpms/CentOS_7/home:kamailio:v4.4.x-rpms.repo -O /etc/yum.repos.d/kamailio.repo
+		wget http://download.opensuse.org/repositories/home:/kamailio:/v5.0.x-rpms/CentOS_7/home:kamailio:v5.0.x-rpms.repo -O /etc/yum.repos.d/kamailio.repo
 	   fi
 	   yum -y update
 	   yum -y install $COMMON_PKGS libdbi-dbd-mysql perl-DBD-MySQL mysql-community-server kamailio rsyslog kamailio-outbound kamailio-sctp kamailio-tls kamailio-websocket kamailio-jansson kamailio-mysql
